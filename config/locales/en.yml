@@ -1,12 +1,12 @@
 en:
-  logged_in_as: "Logged in as"
-  logged_in_succesfully: "Logged in successfully"
-  logged_out: "You have been logged out."
+  logged_in_as: "Zaloguj się..."
+  logged_in_succesfully: "Zalogowano poprawnie"
+  logged_out: "Wylogowano."
   login: Login
-  login_as_existing: "Login as Existing Customer"
+  login_as_existing: "Zaloguj się..."
   login_failed: "Login authentication failed."
-  login_name: Login
-  logout: Logout
+  login_name: Zaloguj
+  logout: Wyloguj
 
   errors:
     messages:
@@ -21,26 +21,26 @@ en:
       unauthenticated: 'You need to sign in or sign up before continuing.'
       unconfirmed: 'You have to confirm your account before continuing.'
       locked: 'Your account is locked.'
-      invalid: 'Invalid email or password.'
+      invalid: 'Błędny email lub hasło.'
       invalid_token: 'Invalid authentication token.'
       timeout: 'Your session expired, please sign in again to continue.'
       inactive: 'Your account was not activated yet.'
     user_passwords:
       user:
-        cannot_be_blank: 'Your password cannot be blank.'
+        cannot_be_blank: 'Hasło nie może być puste.'
         send_instructions: 'You will receive an email with instructions about how to reset your password in a few minutes.'
         updated: 'Your password was changed successfully. You are now signed in.'
     confirmations:
       send_instructions: 'You will receive an email with instructions about how to confirm your account in a few minutes.'
       confirmed: 'Your account was successfully confirmed. You are now signed in.'
     user_registrations:
-      signed_up: 'Welcome! You have signed up successfully.'
+      signed_up: 'Rejestracja poprawna.'
       inactive_signed_up: 'You have signed up successfully. However, we could not sign you in because your account is %{reason}.'
       updated: 'You updated your account successfully.'
       destroyed: 'Bye! Your account was successfully cancelled. We hope to see you again soon.'
     user_sessions:
-      signed_in: 'Signed in successfully.'
-      signed_out: 'Signed out successfully.'
+      signed_in: 'Zalogowałeś się.'
+      signed_out: 'Wylogowano poprawnie.'
     unlocks:
       send_instructions: 'You will receive an email with instructions about how to unlock your account in a few minutes.'
       unlocked: 'Your account was successfully unlocked. You are now signed in.'
