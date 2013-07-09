@@ -33,7 +33,7 @@ class Spree::UserSessionsController < Devise::SessionsController
   end
 
   def destroy
-    cookies.clear
+    #cookies.clear
     session.clear
     super
   end
